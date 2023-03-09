@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  *{
+      font-size: 10px;
+  }
+  /* Header code */
+
+  h1{
+        font-size: 4rem;
+        text-align: center;
+        letter-spacing: .5rem;
+        font-family: 'Playfair Display', serif;
+  }
+
+  h2{
+      font-size: 3rem;
+      letter-spacing: .5rem;
+      font-family: 'Playfair Display', serif;
+  }
+
+  /* paragraph tags and anchor tags within paragraph */
+
+  p{
+      font-size: 2rem;
+  }
+
+  p a{
+      font-size: 2rem;
+
+  }
+
+  /* styling the ul and all the li inside of ul, same for ol */
+
+  ul li a{
+      font-size: 2rem;
+      margin: 2rem;
+  }
+
+  ul li{
+      font-size: 2rem;
+  }
+
+  ol li a{
+      font-size: 2rem;
+  }
+
+  ol li{
+      font-size: 2rem;
+  }
+
+  /* body styling */
+
+  body{
+      line-height: 2rem;
+      letter-spacing: .05rem;
+      word-spacing: .05rem;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  /* selects every odd paragraph */
+
+  section p:nth-of-type(odd){
+      text-indent: 20px;
+  }
+
+  /* navigation styling  */
+
+  nav a{
+    background-color: darkred;
+    color: black;
+    display: flex;
+    padding: 1em;
+    border: 1px solid darkred;
+}
+
+nav a:link {
+    color: beige;
+    background-color: green ;
+}
+
+nav a:visited,
+nav a :focus {
+    color: darkred;
+    background-color: white;
+    
+
+}
+
+nav a:hover{
+    background-color: lavender;
+    color: black;
+}
+
+a{
+    text-decoration: underline;
+}
+
+/* sets the picture after the paragraph anchors */
+
+p a:after{
+    content: url(/icons8-external-link-16.png);
+}
+
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul li{
+    line-height: 2.5rem;
+    list-style: inside;
+}
+
+
+
